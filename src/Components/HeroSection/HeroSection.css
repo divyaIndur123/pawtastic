@@ -1,0 +1,19 @@
+:root {
+  --primary: #f7eceb;
+  --output-border: grey;
+  --dark-background-dark: #f7eceb;
+  --dark-background-light: #ffffff;
+  --bgUrl: url("../../images/bg.svg");
+}
+.hero-section {
+  display: flex;
+  background: var(--bgUrl) center no-repeat;
+  background-size: cover;
+}
+.hero-section__div--dark {
+  background-color: var(--dark-background-dark);
+}
+
+.hero-section__div--light {
+  background-color: var(--dark-background-light);
+}
