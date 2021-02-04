@@ -1,0 +1,6 @@
+.container-section {
+  background-color: rgb(245, 240, 240);
+  height: 616px;
+  display: flex;
+  justify-content: flex-end;
+}

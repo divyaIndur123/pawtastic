@@ -6,9 +6,11 @@
   --bgUrl: url("../../images/bg.svg");
 }
 .hero-section {
-  display: flex;
   background: var(--bgUrl) center no-repeat;
   background-size: cover;
+  height: 616px;
+  display: flex;
+  justify-content: flex-end;
 }
 .hero-section__div--dark {
   background-color: var(--dark-background-dark);

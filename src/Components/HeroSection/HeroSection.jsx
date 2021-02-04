@@ -13,9 +13,7 @@ const HeroSection = (props) => {
           : "hero-section__div--light")
       }
     >
-      Divya Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim totam
-      facilis deserunt illo. Veniam repellat cumque illum velit facere eos
-      labore aut earum tenetur sit! Nihil quo ipsam itaque ad?
+      {props.children}
     </div>
   );
 };

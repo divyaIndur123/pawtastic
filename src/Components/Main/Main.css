@@ -1,0 +1,20 @@
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+  height: 100%;
+}
+.main__img {
+  width: 100%;
+}
+.main__wrapperleft {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+}
+img {
+  margin-right: 1rem;
+}

@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.header__wrapper {
+  /* background-color: white; */
+  height: 89%;
+  width: 60%;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header__p {
+  /* width: 50%; */
+  margin: auto;
+  font-weight: bold;
+  font-size: 54px;
+}
